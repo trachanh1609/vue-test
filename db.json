@@ -1,0 +1,23 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "venues": [
+      { "id": 2, "venue_name":"Sokos Hotel", "rooms": [{"id": 1, "room_name": "Sokos A"},{"id": 2, "room_name": "Sokos B"},{"id": 3, "room_name": "Sokos C"},{"id": 4, "room_name": "Sokos D"}]},
+      { "id": 3, "venue_name":"Kamp", "rooms": [{"id": 1, "room_name": "Kampi A"},{"id": 2, "room_name": "Kampi B"},{"id": 3, "room_name": "Kampi C"},{"id": 4, "room_name": "Kampi D"}]},
+      { "id": 4, "venue_name":"Kaisa", "rooms": [{"id": 1, "room_name": "Kaisa A"},{"id": 2, "room_name": "Kaisa B"},{"id": 3, "room_name": "Kaisa C"},{"id": 4, "room_name": "Kaisa D"}]},
+      { "id": 5, "venue_name":"Hakaniemi", "rooms": [{"id": 1, "room_name": "Haka A"},{"id": 2, "room_name": "Haka B"},{"id": 3, "room_name": "Haka C"},{"id": 4, "room_name": "Haka D"}]},
+      { "id": 6, "venue_name":"Sornainen", "rooms": [{"id": 1, "room_name": "Sorkka A"},{"id": 2, "room_name": "Sorkka B"},{"id": 3, "room_name": "Sorkka C"},{"id": 4, "room_name": "Sorkka D"}]}
+    ],
+  "venue" : {
+    "id": 2,
+    "venue_name":"Sokos Hotel",
+    "rooms": [
+      {"id": 1, "room_name": "Sokos A"},{"id": 2, "room_name": "Sokos B"},{"id": 3, "room_name": "Sokos C"},{"id": 4, "room_name": "Sokos D"}
+    ]
+  }
+}
